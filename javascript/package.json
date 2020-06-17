@@ -1,0 +1,22 @@
+{
+  "name": "conf",
+  "version": "3.0.0",
+  "description": "Quality_Critical_Manager_allows_application_developers_to_plan_a_customized_virtual_infrastructure_based_on_application_level_constraints_on_QoS_and_resource_budgets_provisioning_the_virtual_infrastructure_deploy_application_components_onto_the_virtual_infrastructure_and_start_execution_on_demand_using_TOSCA_",
+  "license": "Apache 2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
