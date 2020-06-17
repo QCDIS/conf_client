@@ -29,7 +29,7 @@ To use the library locally without publishing to a remote npm registry, first in
 into the directory containing `package.json` (and this README). Let's call this `JAVASCRIPT_CLIENT_DIR`. Then run:
 
 ```shell
-npm install
+npm install -g
 ```
 
 Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the following, also from `JAVASCRIPT_CLIENT_DIR`:
